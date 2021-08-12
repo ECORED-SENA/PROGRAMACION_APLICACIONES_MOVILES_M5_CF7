@@ -11,7 +11,7 @@
 
     p.mt-4(data-aos="fade-up") #[strong En la figura 2 se muestra un ejemplo de arquitectura del modelo relacional.]
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 2]   Ejemplo de arquitectura utilizando Azure y PosgreSQL
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 2]   #[em Ejemplo de arquitectura utilizando Azure y PosgreSQL]
 
     figure.mt-5.m-auto.col-md-10
       img.image_floating(src="@/assets/curso/tema3/1.svg" data-aos="fade-up")
@@ -27,7 +27,7 @@
           p Es un SGBD multihilo y multiusuario, de uso libre, siendo el más utilizado en el desarrollo de páginas web y aplicaciones móviles. Se entrega bajo la licencia GNU GPL.
       .row(titulo="MariaDB")
         .col-md-12
-          p Es una consecuencia de MySQL. Está compuesto por varias extensiones su entorno gráfico de desarrollo, es amigable. Se deriva a partir de la compra de MySQL por Oracle para seguir la filosofía del open source, es totalmente compatible con MySQL. Algunas de sus principales características son el aumento de motores de almacenamiento, la gran escalabilidad y la buena seguridad y rapidez en transacciones. Cuenta con las nuevas extensiones que permiten el trabajo y desarrollo de aplicación para bases de datos NoSQL.
+          p Es una consecuencia de MySQL. Está compuesto por varias extensiones su entorno gráfico de desarrollo, es amigable. Se deriva a partir de la compra de MySQL por Oracle para seguir la filosofía del #[em open source], es totalmente compatible con MySQL. Algunas de sus principales características son el aumento de motores de almacenamiento, la gran escalabilidad y la buena seguridad y rapidez en transacciones. Cuenta con las nuevas extensiones que permiten el trabajo y desarrollo de aplicación para bases de datos NoSQL.
 
       .row(titulo="SQLite")
         .col-md-12
@@ -39,11 +39,11 @@
 
       .row(titulo="Microsoft SQL Server")
         .col-md-12
-          p Es un gestor de base de datos relacionales que utiliza el lenguaje Transact-SQL. Una de sus grandes características es que brinda la posibilidad de manejar gran cantidad de información y usuarios, generando un flujo fuerte y constante, que soporta sin inconvenientes. Está soportado, solamente, por Microsoft. Presenta una excelente seguridad, estabilidad y escalabilidad, cuenta con la opción de realizar la cancelación de consultas, también cuenta con un excelente entorno gráfico que facilita su administración, utiliza y se centra sobre los comandos DDL y DML. Como todos los productos de Microsoft cuenta con una versión Express, pero presenta grandes limitantes si se requiere una versión completa: se debe pagar un alto precio por su uso completo Standard, Developer, Enterprise o SQL Azure, la versión de SQL Server en la nube.
+          p Es un gestor de base de datos relacionales que utiliza el lenguaje Transact-SQL. Una de sus grandes características es que brinda la posibilidad de manejar gran cantidad de información y usuarios, generando un flujo fuerte y constante, que soporta sin inconvenientes. Está soportado, solamente, por Microsoft. Presenta una excelente seguridad, estabilidad y escalabilidad, cuenta con la opción de realizar la cancelación de consultas, también cuenta con un excelente entorno gráfico que facilita su administración, utiliza y se centra sobre los comandos DDL y DML. Como todos los productos de Microsoft cuenta con una versión #[em Express], pero presenta grandes limitantes si se requiere una versión completa: se debe pagar un alto precio por su uso completo Standard, Developer, Enterprise o SQL Azure, la versión de SQL Server en la nube.
 
       .row(titulo="Oracle")
         .col-md-12
-          p Oracle es el SGBD más utilizado en el ámbito empresarial y su recorrido y evolución le posicionan como uno de los mejores en el mercado; se destaca por su gran soporte de transacciones, su estabilidad y escalabilidad, su soporte multiplataforma. Su gran inconveniente o desventaja es que cuenta con una versión gratuita: Edition Express, que proporciona ciertas características, pero muchas limitaciones.
+          p Oracle es el SGBD más utilizado en el ámbito empresarial y su recorrido y evolución le posicionan como uno de los mejores en el mercado; se destaca por su gran soporte de transacciones, su estabilidad y escalabilidad, su soporte multiplataforma. Su gran inconveniente o desventaja es que cuenta con una versión gratuita: #[em Edition Express], que proporciona ciertas características, pero muchas limitaciones.
 
       .row(titulo="PostgreSQL")
         .col-md-12

@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal
       .titulo-principal__numero
-        span 1
+        span 2
       h1 Sistema gestor de base de datos (SGBD)
 
     p(data-aos="fade-up") Toda la información que circula en la red, la recibida y la que se envía, sale o se aloja en una base de datos. Internet no sería lo que se conoce sin las bases de datos que proporcionan la posibilidad de guardar la información.
@@ -20,9 +20,9 @@
     br
     br
     .titulo-segundo.mt-5
-      h2#t_2_1 2.1 Data management system DNMS
+      h2#t_2_1 2.1 #[em Data management system] DNMS
 
-    p(data-aos="fade-up") Este se puede definir como un software que estructura y organiza la información, bajo un modelo de almacenamiento que cuenta con ciertas características particulares, al momento de almacenar configurar, administrar y utilizar la información.
+    p(data-aos="fade-up") Este se puede definir como un #[em software] que estructura y organiza la información, bajo un modelo de almacenamiento que cuenta con ciertas características particulares, al momento de almacenar configurar, administrar y utilizar la información.
 
     figure.mt-5.col-md-8.m-auto
       img.image_floating(data-aos="fade" src="@/assets/curso/tema2/2.svg")
@@ -55,7 +55,7 @@
           .tarjeta.caja_flotante_azul(style="background-color:#4DD0E1;min-height:250px;")
             .p-4
               h4(data-aos="fade-up") Lenguaje SQL
-              p.mt-3(data-aos="fade-up") EEl más conocido usado y trabajado de estos lenguajes es SQL (Structured Query Language), que se define como un lenguaje de consulta estructurado.
+              p.mt-3(data-aos="fade-up") EEl más conocido usado y trabajado de estos lenguajes es SQL (#[em Structured Query Language]), que se define como un lenguaje de consulta estructurado.
 
       .col-lg-6(data-aos="fade-up")
         .tarjeta-avatar-b.mb-5
@@ -64,7 +64,7 @@
           .tarjeta.caja_flotante(style="background-color:#FFCA28;min-height:250px;")
             .p-4
               h4(data-aos="fade-up") Funciones y propiedades
-              p.mt-3(data-aos="fade-up") Las funciones y propiedades de las transacciones de un DBMS (sistema administrador de bases de datos) son: Atomicidad (atomicity), consistencia (consistency), aislamiento (isolation) y permanencia (durability).
+              p.mt-3(data-aos="fade-up") Las funciones y propiedades de las transacciones de un DBMS (sistema administrador de bases de datos) son: Atomicidad (#[em atomicity]), consistencia (#[em consistency]), aislamiento (#[em isolation]) y permanencia (#[em durability]).
 
     br
     br
@@ -72,14 +72,14 @@
       h2#t_2_2 2.2 Componentes de un SGBD
 
     .cajon.color-primario.p-5.mt-5.caja_flotante_azul(style="background-color: #DBFBFF;")
-      p(data-aos="fade-up") Un sistema de gestión de base de datos consta de varios componentes, todos los cuales contribuyen al buen funcionamiento del software. Los elementos básicos que lo conforman son tres: #[strong 1) el diccionario de datos, 2) el lenguaje de definición de datos y 3) el lenguaje de manipulación de datos.]
+      p(data-aos="fade-up") Un sistema de gestión de base de datos consta de varios componentes, todos los cuales contribuyen al buen funcionamiento del #[em software]. Los elementos básicos que lo conforman son tres: #[strong 1) el diccionario de datos, 2) el lenguaje de definición de datos y 3) el lenguaje de manipulación de datos.]
 
     figure
       img.image_floating(src="@/assets/curso/tema2/7.svg" data-aos="fade-up")
 
-    p.mt-5(data-aos="fade-up") En la tabla 1 se muestran los componentes que necesita manejar una base de datos para una aplicación móvil; se sigue la misma estructura que se utiliza en las páginas web.
+    p.mt-5(data-aos="fade-up") En la tabla 1 se muestran los componentes que necesita manejar una base de datos para una aplicación móvil; se sigue la misma estructura que se utiliza en las páginas #[em web].
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 1] Componentes de un SGBD
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 1] #[em Componentes de un SGBD]
 
     .tabla-a.color-acento-botones.mt-5(data-aos="fade-up")
       table.tabla__1
@@ -93,10 +93,10 @@
             td El diccionario de datos suministra las características y toda la información importante sobre los datos almacenados. Sin importar su diversidad, también notifica los permisos de uso de cada registro.
           tr
             td(style="border-right: 1px #bababa solid;") Lenguaje de definición de datos
-            td Utiliza un DDL (Data Definition Language) que estructura el contenido de la base de datos; por medio de este lenguaje se puede crear, modificar y eliminar. 
+            td Utiliza un DDL (#[em Data Definition Language]) que estructura el contenido de la base de datos; por medio de este lenguaje se puede crear, modificar y eliminar. 
           tr(style="background-color:#F6F6F6") 
             td(style="border-right: 1px #bababa solid;") Lenguaje de manipulación de datos
-            td Utiliza un DML (Data Manipulation Language), que permite registrar, eliminar, modificar, comprimir y extraer datos.
+            td Utiliza un DML (#[em Data Manipulation Language]), que permite registrar, eliminar, modificar, comprimir y extraer datos.
     br
     br
     .titulo-segundo.mt-5
@@ -106,7 +106,7 @@
 
     p.mt-3(data-aos="fade-up") En la tabla 2 se indican tales propiedades y la manera como estas logran cualificar el sistema de administración de bases de datos.
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 2] Propiedades de un SGBD
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 2] #[em Propiedades de un SGBD]
 
     .tabla-a.color-acento-botones.mt-5(data-aos="fade-up")
       table.tabla__1
@@ -141,7 +141,7 @@
             td La lógica y la estructura de la base de datos deben garantizar el buen funcionamiento y la optimización de recursos. 
           tr(style="background-color:#F6F6F6") 
             td(style="border-right: 1px #bababa solid;") #[em Triggers y Stored procedures]
-            td Son procedimientos que se encargan de activar automáticamente (trigger) como respuesta a algunas acciones.
+            td Son procedimientos que se encargan de activar automáticamente (#[em trigger]) como respuesta a algunas acciones.
 
     br
     br
@@ -152,7 +152,7 @@
 
     p.mt-3(data-aos="fade-up") #[strong A continuación, se muestran los tipos de sistemas de administración de bases de datos más utilizados y sus principales características y funcionalidades.]
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 3] Tipos de SGBD
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 3] #[em Tipos de SGBD]
 
     .tabla-a.color-acento-botones.mt-5(data-aos="fade-up")
       table.tabla__1

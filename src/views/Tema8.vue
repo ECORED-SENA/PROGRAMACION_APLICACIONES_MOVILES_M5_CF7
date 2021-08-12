@@ -7,7 +7,7 @@
         span 8
       h1 Configuración de Firebase a una app móvil híbrida
 
-    p(data-aos="fade-up") Una buena opción para trabajar bases de datos en aplicaciones móviles híbridas es utilizar un web server como Firebase, que ofrece a los desarrolladores y administradores de bases de datos opciones para crear aplicaciones de plataforma web, Android e iOS, funcionales y versátiles. Firebase se puede comprender como una plataforma que integra y presta varios servicios esenciales para el desarrollo de aplicaciones móviles; es un producto soportado por Google con grandes complementos y funciones para desarrollar, manejar, administrar y potenciar las aplicaciones móviles y software en general.
+    p(data-aos="fade-up") Una buena opción para trabajar bases de datos en aplicaciones móviles híbridas es utilizar un #[em web] server como Firebase, que ofrece a los desarrolladores y administradores de bases de datos opciones para crear aplicaciones de plataforma web, Android e iOS, funcionales y versátiles. Firebase se puede comprender como una plataforma que integra y presta varios servicios esenciales para el desarrollo de aplicaciones móviles; es un producto soportado por Google con grandes complementos y funciones para desarrollar, manejar, administrar y potenciar las aplicaciones móviles y #[em software] en general.
 
     figure.mt-5
       img.image_floating(data-aos="fade-up" src="@/assets/curso/tema8/1.svg")
@@ -22,11 +22,11 @@
     AcordionA.mt-5(data-aos="fade-up" tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Funcionalidades de Firebase")
         .col-md-12
-          p Lo primero a considerar es que Firebase no es gratuito y tiene algunos servicios que son básicos y permiten realizar actividades y operaciones básicas. Se denomina plan Spark de Firebase por sus características y sirve para ayudar a los desarrolladores a comenzar; este plan ofrece buenas posibilidades de lectura y escritura de la base de datos con restricciones, pero con suficientes posibilidades de trabajar una aplicación de un tamaño medio.
+          p Lo primero a considerar es que Firebase no es gratuito y tiene algunos servicios que son básicos y permiten realizar actividades y operaciones básicas. Se denomina plan #[em Spark] de #[em Firebase] por sus características y sirve para ayudar a los desarrolladores a comenzar; este plan ofrece buenas posibilidades de lectura y escritura de la base de datos con restricciones, pero con suficientes posibilidades de trabajar una aplicación de un tamaño medio.
 
       .row(titulo="Velocidad en el desarrollo")
         .col-md-12
-          p Una de las grandes ventajas de utilizar Firebase consiste en reducir el tiempo de desarrollo de aplicaciones. Soluciona el acceso a servidores evitando el mantenimiento de bases de datos y servicios backend. Permite a desarrolladores de frontend realizar la administración de todo el trabajo, gracias a los servicios de almacenamiento de datos, la autenticación, las notificaciones, el análisis. El proceso de integración a las aplicaciones es sencillo, cuenta con SDK que genera el enlace directo entre la aplicación y Firebase; es muy fácil de instalar y configurar.
+          p Una de las grandes ventajas de utilizar Firebase consiste en reducir el tiempo de desarrollo de aplicaciones. Soluciona el acceso a servidores evitando el mantenimiento de bases de datos y servicios #[em backend]. Permite a desarrolladores de #[em frontend] realizar la administración de todo el trabajo, gracias a los servicios de almacenamiento de datos, la autenticación, las notificaciones, el análisis. El proceso de integración a las aplicaciones es sencillo, cuenta con SDK que genera el enlace directo entre la aplicación y Firebase; es muy fácil de instalar y configurar.
 
       .row(titulo="Almacenamiento en la nube")
         .col-md-12
@@ -38,7 +38,7 @@
 
       .row(titulo="Funciones en la nube")
         .col-md-12
-          p Firebase Cloud Functions hace referencia a un marco sin servidor que permite a los desarrolladores ejecutar código backend para responder a los eventos desencadenados por características HTTPS y Firebase. Google Cloud se utiliza para almacenar código TypeScript o JavaScript y se puede ejecutar dentro de un entorno administrado. Firebase soluciona uno de los problemas más complejos al momento de desarrollo y ofrece buena seguridad sobre los datos y disponibilidad óptima de estos con la ayuda de copias de seguridad periódicas. Las aplicaciones se encuentran seguras frente a las posibilidades de fallos y pérdida de datos utilizando el sistema de copia de seguridad automática de la plataforma.
+          p Firebase Cloud Functions hace referencia a un marco sin servidor que permite a los desarrolladores ejecutar código #[em backend] para responder a los eventos desencadenados por características HTTPS y Firebase. #[em Google] Cloud se utiliza para almacenar código TypeScript o JavaScript y se puede ejecutar dentro de un entorno administrado. Firebase soluciona uno de los problemas más complejos al momento de desarrollo y ofrece buena seguridad sobre los datos y disponibilidad óptima de estos con la ayuda de copias de seguridad periódicas. Las aplicaciones se encuentran seguras frente a las posibilidades de fallos y pérdida de datos utilizando el sistema de copia de seguridad automática de la plataforma.
 
       .row(titulo="Autenticación y mensajería en la nube")
         .col-md-12

@@ -15,7 +15,7 @@
           
         .col-lg-8
           .bloque-texto-a__texto.p-5.caja_escalada_hover(style="background-color: rgb(255 255 255 / 95%);")
-            p(data-aos="fade-up") Firebase presenta la posibilidad de utilizar un hosting gratuito y una base de datos que puede ser administrada; también permite hacer monitoreo de las actividades y procesos de la base de datos.
+            p(data-aos="fade-up") Firebase presenta la posibilidad de utilizar un #[em hosting] gratuito y una base de datos que puede ser administrada; también permite hacer monitoreo de las actividades y procesos de la base de datos.
 
     br
     .tarjeta.text-white.p-3.mt-5.caja_flotante_azul.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffca28, #bd8f00)")
@@ -25,8 +25,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              .h2.mb-0(style="color: #12263F !important;") Vinculación de Firebase a la app móvil
-              p.mt-3(style="color: #12263F !important;") Para asimilar y aplicar la vinculación de Firebase al proyecto de aplicación móvil, visite y estudie el siguiente enlace. Desarrolle los pasos que allí se muestran y refuerce los aspectos más importantes de este desarrollo.
+              p.mt-3(style="color: #12263F !important;") Para asimilar y aplicar la vinculación de Firebase al proyecto de aplicación móvil, visite y estudie el #[strong(style="color: #12263F !important;") Anexo_1_VinculacionDeFirebaseALaAppMovil]. Desarrolle los pasos que allí se muestran y refuerce los aspectos más importantes de este desarrollo.
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" :href="obtenerLink('')" target="_blank")
                 span(style="color: #12263F !important;") Descargar

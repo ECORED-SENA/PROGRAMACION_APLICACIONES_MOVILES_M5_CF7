@@ -7,12 +7,13 @@
         span 6
       h1 ¿Por qué no utilizar conexión directa a base de datos?
 
-    p(data-aos="fade-up") No se recomienda conectar la base de datos, por medio de una conexión persistente, directamente a la aplicación, ya que esto podría traer complicaciones cuando hay mala conectividad o fallas de conexión móvil. En cambio, sí es recomendable utilizar un método de solicitudes HTTP, sin estado (stateless HTTP requests). Este diseño sin estado, simplifica el esquema del servidor porque no hay necesidad de asignar, dinámicamente, almacenamiento para tratar las conversaciones en curso. Si un cliente desaparece, en medio de la transacción, ninguna parte del sistema tiene que ser responsable de limpiar el estado actual del servidor.
+    p(data-aos="fade-up") No se recomienda conectar la base de datos, por medio de una conexión persistente, directamente a la aplicación, ya que esto podría traer complicaciones cuando hay mala conectividad o fallas de conexión móvil. En cambio, sí es recomendable utilizar un método de solicitudes HTTP, sin estado (#[em stateless HTTP requests]). Este diseño sin estado, simplifica el esquema del servidor porque no hay necesidad de asignar, dinámicamente, almacenamiento para tratar las conversaciones en curso. Si un cliente desaparece, en medio de la transacción, ninguna parte del sistema tiene que ser responsable de limpiar el estado actual del servidor.
 
     figure.mt-5
       img.image_floating(src="@/assets/curso/tema6/1.svg" data-aos="fade-up")
 
-    h5.mt-5(data-aos="fade-up") Razones por las que no es recomendable la conexión directa a base de datos.
+    h5.mt-5(data-aos="fade-up") A continuación, se indican otras razones por las que no es recomendable la conexión directa a base de datos.
+
 
     .row.mt-5.col-md-9.m-auto
       .col-md-6.mb-3

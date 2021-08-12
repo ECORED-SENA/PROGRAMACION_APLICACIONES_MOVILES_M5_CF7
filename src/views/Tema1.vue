@@ -15,7 +15,7 @@
           .bloque-texto-a__texto.p-5.caja_escalada_hover(style="background-color: rgb(255 255 255 / 95%);")
             p(data-aos="fade-up") Este diseño se realiza cuando se cuenta con toda la información disponible del proyecto; esta información debe estar catalogada y ordenada de manera clara para iniciar la clasificación de datos y su organización, con lo que se genera el modelo lógico y conceptual, basado y fundamentado en el modelo físico que se obtuvo como resultado de la investigación y levantamiento de la información.
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 1] Base de datos relacional
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 1] #[em Base de datos relacional]
 
     figure.mt-5
       img.image_floating(data-aos="fade-up" src="@/assets/curso/tema1/2.svg")

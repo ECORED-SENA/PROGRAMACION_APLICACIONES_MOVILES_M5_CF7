@@ -7,7 +7,7 @@
         span 10
       h1 SQLite para aplicaciones livianas
 
-    p(data-aos="fade-up") Esta herramienta de uso libre permite almacenar y administrar información en dispositivos móviles como los smartphones y también en pequeños dispositivos utilizados en IoT, de manera sencilla, eficaz y rápida; utiliza y soporta el lenguaje SQL sin ninguna limitación, implementando el estándar SQL92.
+    p(data-aos="fade-up") Esta herramienta de uso libre permite almacenar y administrar información en dispositivos móviles como los #[em smartphones] y también en pequeños dispositivos utilizados en #[em IoT], de manera sencilla, eficaz y rápida; utiliza y soporta el lenguaje SQL sin ninguna limitación, implementando el estándar SQL92.
 
     .row.mt-5
       .col-md-6.mb-4.p-5
@@ -23,7 +23,7 @@
       
       .col-md-6.p-4
         h3.mt-3(data-aos="fade-right") Principales características
-        p.mt-3(data-aos="fade-right") SQLite promueve a trabajar con proyectos livianos. Su base de datos se encuentra en un solo archivo y su funcionamiento se puede limitar al solo uso de la memoria Ram, no tiene dependencias externas todos sus procesos y actividades están autocontenidas, utiliza librerías de acceso que permite la integración con múltiples lenguajes de programación. Soporta texto en formato UTF-8 y UTF-16, así como datos numéricos de 64 bits. Trabaja con funciones SQL definidas por el usuario (UDF). Su código fuente es de dominio público y se encuentra muy bien documentado (Rómmel, s. f.). 
+        p.mt-3(data-aos="fade-right") SQLite promueve a trabajar con proyectos livianos. Su base de datos se encuentra en un solo archivo y su funcionamiento se puede limitar al solo uso de la memoria #[em Ram], no tiene dependencias externas todos sus procesos y actividades están autocontenidas, utiliza librerías de acceso que permite la integración con múltiples lenguajes de programación. Soporta texto en formato UTF-8 y UTF-16, así como datos numéricos de 64 bits. Trabaja con funciones SQL definidas por el usuario (UDF). Su código fuente es de dominio público y se encuentra muy bien documentado (Rómmel, s. f.). 
       
       .col-md-6.mb-4.p-5
         .imagen-titulo--der.color-acento-botones

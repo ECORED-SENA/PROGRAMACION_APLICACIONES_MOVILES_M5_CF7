@@ -15,18 +15,18 @@
           
         .col-lg-8
           .bloque-texto-a__texto.p-5.caja_escalada_hover(style="background-color: rgb(255 255 255 / 95%);")
-            p(data-aos="fade-up") De esta forma, distintas aplicaciones de software, desarrolladas en lenguajes de programación diferentes y ejecutadas sobre cualquier plataforma, pueden utilizar los Web Service para intercambiar información en redes de computadoras, como internet, evitando la pérdida total de la información y la conexión (p. 2).
+            p(data-aos="fade-up") De esta forma, distintas aplicaciones de software, desarrolladas en lenguajes de programación diferentes y ejecutadas sobre cualquier plataforma, pueden utilizar los #[em Web Service] para intercambiar información en redes de computadoras, como internet, evitando la pérdida total de la información y la conexión (p. 2).
 
     p.mt-5(data-aos="fade-up") En las figuras que se muestran, se invita a reconocer los elementos clave para el diseño de una base de datos móvil y los beneficios del uso de servidores web para las aplicaciones móviles.
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 10] Elementos clave para el diseño de una base de datos móvil
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 10] #[em Elementos clave para el diseño de una base de datos móvil]
     
     figure.mt-5.col-md-9.m-auto
       img.image_floating(src="@/assets/curso/tema7/2.svg" data-aos="fade-up")
     
     figcaption.mt-4(data-aos="fade-up") Nota. Tomada de https://www.semanticscholar.org/paper/A-Mobile-Database-Design-Methodology-for-Mobile-Yu-Sharma/41e3949c8aca76725184c740d782e79ca28efddc
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 11] Webs Services
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 11] #[em Webs Services]
     
     figure.mt-5.col-md-9.m-auto
       img.image_floating(src="@/assets/curso/tema7/3.svg" data-aos="fade-up")
@@ -38,19 +38,19 @@
     AcordionA.mt-5(data-aos="fade-up" tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Alojamiento en servidor")
         .col-md-12
-          p Una buena práctica es estructurar y diseñar la lógica de base de datos de la aplicación y alojarla en un servidor de aplicaciones accesible desde la web y comunicarse con ese servidor de aplicaciones, por medio de protocolos HTTP + JSON, SOAP, XML-RPC o similares, dependiendo del lenguaje y frameware que se está utilizando para el desarrollo. Esto hará mucho más eficiente el uso del ancho de banda y la aplicación será más tolerante a los problemas con la conectividad. También evitará exponer la base de datos directamente a internet.
+          p Una buena práctica es estructurar y diseñar la lógica de base de datos de la aplicación y alojarla en un servidor de aplicaciones accesible desde la web y comunicarse con ese servidor de aplicaciones, por medio de protocolos HTTP + JSON, SOAP, XML-RPC o similares, dependiendo del lenguaje y #[em frameware] que se está utilizando para el desarrollo. Esto hará mucho más eficiente el uso del ancho de banda y la aplicación será más tolerante a los problemas con la conectividad. También evitará exponer la base de datos directamente a internet.
 
       .row(titulo="SOAP - Simple Object Access Protocol")
         .col-md-12
-          p SOAP es un protocolo escrito en XML para el intercambio de información entre aplicaciones. Es un formato para enviar mensajes, diseñado especialmente para servir de comunicación en Internet, pudiendo extender los HTTP headers. Es una forma de definir qué información se envía y cómo, mediante XML. Básicamente es un protocolo para acceder a un Web Service (Lázaro, 2018).
+          p SOAP es un protocolo escrito en XML para el intercambio de información entre aplicaciones. Es un formato para enviar mensajes, diseñado especialmente para servir de comunicación en Internet, pudiendo extender los HTTP #[em headers]. Es una forma de definir qué información se envía y cómo, mediante XML. Básicamente es un protocolo para acceder a un #[em Web Service] (Lázaro, 2018).
 
       .row(titulo="WSDL - Web Services Description Language")
         .col-md-12
-          p WSDL es un lenguaje basado en XML para describir los servicios web y cómo acceder a ellos. Es el formato estándar para describir un Web Service, y fue diseñado por Microsoft e IBM. WSDL es una parte integral del estándar UDDI y es el lenguaje que este utiliza (Lázaro, 2018).
+          p WSDL es un lenguaje basado en XML para describir los servicios web y cómo acceder a ellos. Es el formato estándar para describir un #[em Web Service], y fue diseñado por #[em Microsoft] e IBM. WSDL es una parte integral del estándar UDDI y es el lenguaje que este utiliza (Lázaro, 2018).
 
       .row(titulo="UDDI - Universal Description, Discovery and Integration")
         .col-md-12
-          p UDDI es un estándar XML para describir, publicar y encontrar servicios web. Es un directorio donde las compañías pueden registrar y buscar servicios web. Es un directorio de interfaces de servicios web descritos en WSDL que se comunican mediante SOAP (Lázaro, 2018).
+          p UDDI es un estándar XML para describir, publicar y encontrar servicios #[em web]. Es un directorio donde las compañías pueden registrar y buscar servicios #[em web]. Es un directorio de interfaces de servicios #[em web] descritos en WSDL que se comunican mediante SOAP (Lázaro, 2018).
 
 
 </template>

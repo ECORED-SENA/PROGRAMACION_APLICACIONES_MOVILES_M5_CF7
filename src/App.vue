@@ -51,4 +51,6 @@ export default {
   filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2))
   transform: translatex(20px)
   animation: float 6s cubic-bezier(0.4, 0.5, .6, .7) infinite
+.glosario__letra-item__texto strong
+  font-style: italic
 </style>

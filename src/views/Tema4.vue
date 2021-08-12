@@ -9,11 +9,7 @@
 
     p(data-aos="fade-up") Este gestor de base de datos relacional, fundamentado sobre el modelo orientado a objetos, es de uso libre y cuenta con un excelente soporte para crear y administrar bases de datos de diferente tamaño y servicios. En este punto del componente, se visualizarán los pasos de la creación de una base de datos y su alojamiento sobre un servidor que provee la plataforma, monitoreando todas las actividades y el flujo de información que se genera, en tiempo real, sobre la aplicación móvil.
 
-    p.mt-4(data-aos="fade-up") #[strong A continuación, se muestran los pasos y orientaciones de creación de base de datos, en postGresqul.]
-
-    h3.mt-5(data-aos="fade-up") Crear y administrar una base de datos pPostgreSQL
-
-    p.mt-4(data-aos="fade-up") Para crear y administrar una base de datos PostgreSQL con un entorno gráfico amigable, se puede utilizar la herramienta pgAdmin. Para trabajar con este entorno se puede ingresar en el sitio oficial de la herramienta https://www.pgadmin.org/ donde se encuentra el escenario que se muestra en la figura 3. Allí hay la posibilidad de realizar una demostración del funcionamiento SGBD en línea; también es posible descargar la aplicación o crear un usuario y trabajar sobre la plataforma web.
+    p.mt-4(data-aos="fade-up") #[strong A continuación, se muestran los pasos y orientaciones de creación de base de datos, en postGresqul. Se recomienda aplicar cada uno de ellos, abriendo las diapositivas que los contienen. ¡Adelante!]
 
     div.mt-5(active="true")
       b-card(no-body='')
@@ -30,7 +26,7 @@
             b-card-text
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Para crear y administrar una base de datos PostgreSQL con un entorno gráfico amigable, se puede utilizar la herramienta pgAdmin. Para trabajar con este entorno se puede ingresar en el sitio oficial de la herramienta https://www.pgadmin.org/ donde se encuentra el escenario que se muestra en la figura 3. Allí hay la posibilidad de realizar una demostración del funcionamiento SGBD en línea; también es posible descargar la aplicación o crear un usuario y trabajar sobre la plataforma web.
-              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 3] Página de inicio para la creación de base de datos PostgreSQL
+              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 3] #[em Página de inicio para la creación de base de datos PostgreSQL]
               figure
                 img(src="@/assets/curso/tema4/1.svg")
                 figcaption Nota. Tomada de ejercicio práctico de instalación del autor en pgadmin.org
@@ -42,7 +38,7 @@
             b-card-text
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Esta herramienta cuenta con un sandbox en el cual se puede realizar una práctica básica guiada, familiarizándose con el entorno de trabajo pgAdmin. 
-              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 4] Bienvenida al entorno web de administración
+              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 4] #[em Bienvenida al entorno web de administración]
               figure
                 img(src="@/assets/curso/tema4/2.svg")
                 figcaption Nota. Tomada de ejercicio práctico de instalación del autor en pgadmin.org
@@ -54,7 +50,7 @@
             b-card-text
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p El siguiente procedimiento permite crear y trabajar una base de datos utilizando el entorno en línea, realizando un registro en la plataforma por medio de un usuario y una contraseña.
-              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 5] Ingreso en la plataforma
+              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 5] #[em Ingreso en la plataforma]
               figure
                 img(src="@/assets/curso/tema4/3.svg")
                 figcaption Nota. Tomada de ejercicio práctico de instalación del autor en pgadmin.org
@@ -67,7 +63,7 @@
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Este es el entorno de administración proporcionado PGAdmin. Se puede realizar el trabajo de administrar un nuevo servidor, realizar la configuración del entorno de trabajo; también es posible ingresar, directamente, a la página web de PGAdmin. Así mismo, se puede encontrar e ingresar a la comunidad y acceder a toda la documentación de soporte de PostgreSQL
 
-              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 6] Entorno de trabajo de PGAdmin 
+              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 6] #[em Entorno de trabajo de PGAdmin ]
               figure
                 img(src="@/assets/curso/tema4/4.svg")
                 figcaption Nota. Tomada de ejercicio práctico de instalación del autor en pgadmin.org
@@ -80,7 +76,7 @@
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p PGAdmin permite realizar la creación de un servidor de base de datos sobre el cual se creará y vinculará la base de datos que, posteriormente, será vinculada a la aplicación o al programa que se realice; también posibilita realizar una configuración básica de administración y soporte.
 
-              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 7] Creación de un servidor 
+              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 7] #[em Creación de un servidor ]
               figure
                 img(src="@/assets/curso/tema4/5.svg")
                 figcaption Nota. Tomada de ejercicio práctico de instalación del autor en pgadmin.org
@@ -93,7 +89,7 @@
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Para realizar la configuración y creación de la base de datos es importante la seguridad; por tal razón siempre pedirá la contraseña para realizar cualquier cambio importante sobre el servidor. 
 
-              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 8] Contraseña de ingreso
+              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 8] #[em Contraseña de ingreso]
               figure
                 img(src="@/assets/curso/tema4/6.svg")
                 figcaption Nota. Tomada de ejercicio práctico de instalación del autor en pgadmin.org 
@@ -106,7 +102,7 @@
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Después de la vinculación de la base de datos al servidor y a la aplicación, es posible realizar la administración y el seguimiento de todos los procesos, actividades y rendimiento de la base de datos. 
 
-              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 9] Base de datos creada y monitoreada
+              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 9] #[em Base de datos creada y monitoreada]
               figure
                 img(src="@/assets/curso/tema4/7.svg")
                 figcaption Nota. Tomada de ejercicio práctico de instalación del autor en pgadmin.org 

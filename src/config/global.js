@@ -37,7 +37,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Data management system DNMS',
+            titulo: '<em>Data management system</em> DNMS',
             hash: 't_2_1',
           },
           {
@@ -96,7 +96,7 @@ export default {
         nombreRuta: 'tema7',
         icono: 'far fa-file-alt',
         numero: '7',
-        titulo: 'Beneficios de un servicio web',
+        titulo: 'Beneficios de un servicio <em>web</em>',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -161,34 +161,36 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Lázaro, D. (2018). Introducción a los web services. ',
+      referencia:
+        'Lázaro, D. (2018). <em>Introducción a los web services.</em> ',
       link: 'https://diego.com.es/introduccion-a-los-web-services',
     },
     {
       referencia:
-        'Microsoft.com. (2021). Aplicaciones web y móviles escalables mediante Azure Database for PostgreSQ. ',
+        'Microsoft.com. (2021). <em>Aplicaciones web y móviles escalables mediante Azure Database for PostgreSQ.</em> ',
       link:
         'https://docs.microsoft.com/es-es/azure/architecture/solution-ideas/articles/scalable-web-and-mobile-applications-using-azure-database-for-postgresql',
     },
     {
       referencia:
-        'Rodríguez, N., Martín, A., Valenzuela, A. y Chávez, S. (2009). Consumo de web service desde dispositivos móviles heterogéneos. ',
+        'Rodríguez, N., Martín, A., Valenzuela, A. y Chávez, S. (2009). <em>Consumo de web service desde dispositivos móviles heterogéneos.</em> ',
       link:
         'http://sedici.unlp.edu.ar/bitstream/handle/10915/19809/Documento_completo.pdf%3Fsequence%3D1 ',
     },
     {
-      referencia: 'Rómmel, F. (s.f.). SQLite: la base de datos embebida. ',
+      referencia:
+        'Rómmel, F. (s.f.). <em>SQLite: la base de datos embebida.</em> ',
       link: 'https://sg.com.mx/revista/17/sqlite-la-base-datos-embebida ',
     },
     {
       referencia:
-        'Silberschatz, A., Korth., H., y Sudarshan, S. (2006). Fundamentos de bases de datos. McGraw-Hill. ',
+        'Silberschatz, A., Korth., H., y Sudarshan, S. (2006). <em>Fundamentos de bases de datos. McGraw-Hill.</em> ',
       link: '',
     },
   ],
   glosario: [
     {
-      termino: 'peer-to-peer',
+      termino: 'Peer-to-peer',
       significado:
         ' conexión con una arquitectura destinada a la comunicación entre aplicaciones. Esto permite a las personas o a los ordenadores compartir información y archivos, de uno a otro, sin necesidad de intermediarios.',
     },
@@ -215,26 +217,27 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Casas, J. (s.f.). Diseño conceptual de bases de datos. UOC. ',
+      texto:
+        'Casas, J. (s.f.). <em>Diseño conceptual de bases de datos. UOC.</em> ',
       tipo: 'Pagina web',
       link:
         'http://cv.uoc.edu/annotation/cb826b689abc472d8fb5b2519840058b/699689/PID_00213704/PID_00213704.html ',
     },
     {
       texto:
-        'Hdeleon.net (2019). ¿Cómo hacer una base de datos para una app tipo Uber? [Video]. YouTube. ',
+        'Hdeleon.net (2019). <em>¿Cómo hacer una base de datos para una app tipo Uber? [Video]. YouTube.</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=1yAC3m7f5Pk ',
     },
     {
       texto:
-        'Cano, J. (2017). Nativescript, login con firebase [Video]. YouTube. ',
+        'Cano, J. (2017). <em>Nativescript, login con firebase [Video]. YouTube.</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=WKfgnzl0p3E ',
     },
     {
       texto:
-        'Henao, C. (2017). 50. Cómo crear una Base de Datos SQLite en Android [Video]. YouTube. ',
+        'Henao, C. (2017). <em>50. Cómo crear una Base de Datos SQLite en Android [Video]. YouTube.</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=9WiyqIcffe0 ',
     },
@@ -252,7 +255,28 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ' Wilson Andrés Cuervo Nieto',
+        cargo: ' Experto temático',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Evaluador instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -260,43 +284,37 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Carlos Julián Ramírez Benítez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Luis Jesús Pérez Madariaga ',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'María Camila Ovalle Ospina',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
