@@ -27,7 +27,7 @@
             .col.mb-3.mb-sm-0
               p.mt-3(style="color: #12263F !important;") Para asimilar y aplicar la vinculación de Firebase al proyecto de aplicación móvil, visite y estudie el #[strong(style="color: #12263F !important;") Anexo_1_VinculacionDeFirebaseALaAppMovil]. Desarrolle los pasos que allí se muestran y refuerce los aspectos más importantes de este desarrollo.
             .col-sm-auto
-              a.boton.boton--b.color-primario(style="background-color:#4DD0E1" :href="obtenerLink('')" target="_blank")
+              a.boton.boton--b.color-primario(style="background-color:#4DD0E1" :href="obtenerLink('downloads/Firebase.pdf')" target="_blank")
                 span(style="color: #12263F !important;") Descargar
                 i.fas.fa-file-download(style="color: #12263F !important;")
 
