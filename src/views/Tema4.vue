@@ -21,7 +21,7 @@
           b-tab
             template(#title)
               div.pt-3.indicador__container(style="border-top:1px #B2E6FF solid;")
-                div.link__tab 1. Página de inicio para la creación de base de #[br] datos PostgreSQL
+                div.link__tab 1. Crear y administrar una base de datos pPostgreSQL
                 .indicador--click
             b-card-text
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
@@ -34,7 +34,7 @@
           b-tab
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
-                div.link__tab 2. Bienvenida al entorno web de administración
+                div.link__tab 2. Entorno web de administración
             b-card-text
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Esta herramienta cuenta con un sandbox en el cual se puede realizar una práctica básica guiada, familiarizándose con el entorno de trabajo pgAdmin. 
@@ -46,7 +46,7 @@
           b-tab
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
-                div.link__tab 3. Ingreso en la plataforma
+                div.link__tab 3. Entorno en línea y registro en plataforma
             b-card-text
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p El siguiente procedimiento permite crear y trabajar una base de datos utilizando el entorno en línea, realizando un registro en la plataforma por medio de un usuario y una contraseña.
@@ -58,7 +58,7 @@
           b-tab
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
-                div.link__tab 4. Entorno de trabajo de PGAdmin 
+                div.link__tab 4. Entorno de trabajo PGAdmin
             b-card-text
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Este es el entorno de administración proporcionado PGAdmin. Se puede realizar el trabajo de administrar un nuevo servidor, realizar la configuración del entorno de trabajo; también es posible ingresar, directamente, a la página web de PGAdmin. Así mismo, se puede encontrar e ingresar a la comunidad y acceder a toda la documentación de soporte de PostgreSQL
@@ -84,7 +84,7 @@
           b-tab
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
-                div.link__tab 6. Contraseña de ingreso
+                div.link__tab 6. Seguridad e ingreso
             b-card-text
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Para realizar la configuración y creación de la base de datos es importante la seguridad; por tal razón siempre pedirá la contraseña para realizar cualquier cambio importante sobre el servidor. 
