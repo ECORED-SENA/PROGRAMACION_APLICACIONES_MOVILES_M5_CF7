@@ -9,7 +9,7 @@
 
     p(data-aos="fade-up") Los principales beneficios que se obtienen del uso de los servicios web, para una aplicación móvil, es que se puede lograr una conexión de corta duración, con un estado mínimo, permitiendo volver al estado inicial si la transacción o el proceso no finalizó correctamente. El dispositivo cambia de redes wifi a red móvil y viceversa, perdiendo la conexión por unos segundos, pero retoma el requerimiento. De acuerdo con Rodríguez, Martín, Valenzuela y Chávez (2009):
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mt-5.caja_flotante(data-aos="fade-left")
+    .bloque-texto-a.color-primario.p-4.p-md-5.mt-5.caja_flotante.caja__7(data-aos="fade-left")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           
@@ -183,7 +183,7 @@ export default {
   border-top-color: #4dd0e1
 .pasos-a.color-primario .pasos-a__linea__esquina__linea
   border-color: #4dd0e1
-.bloque-texto-a.color-primario
+.bloque-texto-a.color-primario.caja__7
   background: url("../assets/curso/tema7/1.svg")
   background-size: contain
 .bloque-texto-a:before
