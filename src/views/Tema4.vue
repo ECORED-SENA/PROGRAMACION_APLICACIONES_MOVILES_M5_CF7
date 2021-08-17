@@ -14,10 +14,6 @@
     div.mt-5(active="true")
       b-card(no-body='')
         b-tabs(pills='' card='' vertical='')
-          b-tab(disabled="true")
-            template(#title)
-              h3.text-center.mb-0.pb-4.pt-4(style="color:#1565C0;") PCreación de base de datos #[br] postGresqul
-              
           b-tab
             template(#title)
               div.pt-3.indicador__container(style="border-top:1px #B2E6FF solid;")
@@ -25,7 +21,7 @@
                 .indicador--click
             b-card-text
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Para crear y administrar una base de datos PostgreSQL con un entorno gráfico amigable, se puede utilizar la herramienta pgAdmin. Para trabajar con este entorno se puede ingresar en el sitio oficial de la herramienta https://www.pgadmin.org/ donde se encuentra el escenario que se muestra en la figura 3. Allí hay la posibilidad de realizar una demostración del funcionamiento SGBD en línea; también es posible descargar la aplicación o crear un usuario y trabajar sobre la plataforma web.
+                p Para crear y administrar una base de datos PostgreSQL con un entorno gráfico amigable, se puede utilizar la herramienta pgAdmin. Para trabajar con este entorno se puede ingresar en el sitio oficial de la herramienta #[a(href="https://www.pgadmin.org/" style="color: steelblue;" target="_blank") https://www.pgadmin.org/] donde se encuentra el escenario que se muestra en la figura 3. Allí hay la posibilidad de realizar una demostración del funcionamiento SGBD en línea; también es posible descargar la aplicación o crear un usuario y trabajar sobre la plataforma web.
               p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 3] #[em Página de inicio para la creación de base de datos PostgreSQL]
               figure
                 img(src="@/assets/curso/tema4/1.svg")
