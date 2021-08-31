@@ -72,7 +72,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Creación de base de datos postGresqul',
+        titulo: 'Creación de base de datos PostgreSQL',
         desarrolloContenidos: true,
         subMenu: [],
       },
