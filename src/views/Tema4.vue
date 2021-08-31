@@ -5,11 +5,11 @@
     .titulo-principal
       .titulo-principal__numero
         span 4
-      h1 Creación de base de datos postGresqul
+      h1 Creación de base de datos PostgreSQL
 
     p(data-aos="fade-up") Este gestor de base de datos relacional, fundamentado sobre el modelo orientado a objetos, es de uso libre y cuenta con un excelente soporte para crear y administrar bases de datos de diferente tamaño y servicios. En este punto del componente, se visualizarán los pasos de la creación de una base de datos y su alojamiento sobre un servidor que provee la plataforma, monitoreando todas las actividades y el flujo de información que se genera, en tiempo real, sobre la aplicación móvil.
 
-    p.mt-4(data-aos="fade-up") #[strong A continuación, se muestran los pasos y orientaciones de creación de base de datos, en postGresqul. Se recomienda aplicar cada uno de ellos, abriendo las diapositivas que los contienen. ¡Adelante!]
+    p.mt-4(data-aos="fade-up") #[strong A continuación, se muestran los pasos y orientaciones de creación de base de datos, en PostgreSQL. Se recomienda aplicar cada uno de ellos, abriendo las diapositivas que los contienen. ¡Adelante!]
 
     div.mt-5(active="true")
       b-card(no-body='')
@@ -17,7 +17,7 @@
           b-tab
             template(#title)
               div.pt-3.indicador__container(style="border-top:1px #B2E6FF solid;")
-                div.link__tab 1. Crear y administrar una base de datos pPostgreSQL
+                div.link__tab 1. Crear y administrar una base de datos PostgreSQL
                 .indicador--click
             b-card-text
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")

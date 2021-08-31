@@ -55,7 +55,7 @@
           .tarjeta.caja_flotante_azul(style="background-color:#4DD0E1;min-height:250px;")
             .p-4
               h4(data-aos="fade-up") Lenguaje SQL
-              p.mt-3(data-aos="fade-up") EEl más conocido usado y trabajado de estos lenguajes es SQL (#[em Structured Query Language]), que se define como un lenguaje de consulta estructurado.
+              p.mt-3(data-aos="fade-up") El más conocido usado y trabajado de estos lenguajes es SQL (#[em Structured Query Language]), que se define como un lenguaje de consulta estructurado.
 
       .col-lg-6(data-aos="fade-up")
         .tarjeta-avatar-b.mb-5
